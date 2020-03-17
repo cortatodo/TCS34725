@@ -20,13 +20,13 @@ Aqui viene lo que podria dar problemas, ya que no estamos usando un firmware nor
 
 Tomado de esta fuente en ingles https://learn.adafruit.com/adafruit-color-sensors/python-circuitpython
 
-1-'adafruit_tcs34725.mpy' copiar codigo de aqui: https://github.com/adafruit/Adafruit_CircuitPython_TCS34725
+1-'adafruit_tcs34725.py' copiar codigo de aqui: https://github.com/adafruit/Adafruit_CircuitPython_TCS34725
 2-'adafruit_bus_device' copiar solo i2c_device.py que es el que vamos a usar: https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/tree/master/adafruit_bus_device
 
 Estos dos drivers son indispensables para poder hacer la prueba.
 
 Hay que pasarlos al esp-8266 con ampy de la siguiente manera:
-(En Windows Power Shell)
+(En Windows Power Shell puerto COM3 (sustituir con puerto correspondiente))
 
 ampy --port COM3 put adafruit_tcs34725.py
 
