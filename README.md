@@ -7,17 +7,17 @@ Este es el sensor de color TCS34725 el cual es probado con codigo Micropython y 
 
 <img src='media/NodeMCU-Microncontroller.ppm/' width=300 height=200 />
 
-para poder hacer funcionar el esp-8266 con el TCS34725 tuve que hacer unos cambios en el firmware y usar el de Adafruit(&trade;)
+Para poder hacer una prueba rapida con Micropython y el esp-8266 con el TCS34725 tuve que hacer unos cambios en el firmware y usar el de Adafruit(&trade;)
 
-que descargue aqui https://github.com/adafruit/circuitpython/releases/download/3.1.2/adafruit-circuitpython-feather_huzzah-3.1.2.bin 
+que descargue de aqui https://github.com/adafruit/circuitpython/releases/download/3.1.2/adafruit-circuitpython-feather_huzzah-3.1.2.bin 
 
-Es una version en desuso pero para hacer la prueba funciono.
+Es una version en desuso pero para hacer la prueba funciona.
 
 En este punto es importante indicar que para instalar el firmware use esptools, si no esta familiarizado hay otros tutoriales con la documentacion de uso y para instalarlo, borre la memoria flash del esp-8266 e instale el firmware.
 
 Una vez instalado el firmware entonces se requiere de ampy, herramienta de Micropython (de Adafruit(&trade;) tambien) que es el interface para poner los archivos de python en el board esp-8266. Para principiantes una busqueda en Google de estos terminos les mostrara toneladas de informacion, no tiene caso desglosarlos aqui.
 
-Tomado de esta fuente en ingles https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-for-esp8266
+Pueden ver esta fuente en ingles https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-for-esp8266
 
 Aqui viene lo que podria dar problemas, ya que no estamos usando un firmware normal de esp-8266 tenemos que copiar algunos archivos que van a simular el board en el esp8266.
 
@@ -34,6 +34,10 @@ Hay que pasarlos al esp-8266 con ampy de la siguiente manera:
 ampy --port COM3 put adafruit_tcs34725.py
 
 ampy --port COM3 put i2c_device.py
+
+ampy --port COM3 put main.py
+
+ampy --port COM3 put tcs34725.py
 
 <img src='media/color-sensor.jpg/' width=300 height=200 />
 
