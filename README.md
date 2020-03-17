@@ -4,7 +4,8 @@ Código para probar el sensor de colores TCS34725 con Micro Python
 Este es el sensor de color TCS34725 el cual es probado con codigo Micropython y microcontrolador esp-8266.
 <img src='media/NodeMCU-Microncontroller.ppm/' width=300 height=200 />
 
-para poder hacer funcionar el esp-8266 con el TCS34725 tuve que hacer unos cambios en el firmware y usar el de Adafruit
-@
-&trade;
-&#8482;
+para poder hacer funcionar el esp-8266 con el TCS34725 tuve que hacer unos cambios en el firmware y usar el de Adafruit(&trade;)
+
+que descargue aqui https://github.com/adafruit/circuitpython/releases/download/3.1.2/adafruit-circuitpython-feather_huzzah-3.1.2.bin 
+
+Es una version en desuso pero para hacer la prueba funciono.
