@@ -31,3 +31,5 @@ Hay que pasarlos al esp-8266 con ampy de la siguiente manera:
 ampy --port COM3 put adafruit_tcs34725.py
 
 ampy --port COM3 put i2c_device.py
+
+<img src='media/color-sensor.jpg/' width=300 height=200 />
