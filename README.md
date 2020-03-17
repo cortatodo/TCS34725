@@ -1,7 +1,10 @@
 # TCS34725
 Código para probar el sensor de colores TCS34725 con Micro Python
+
 <img src='media/tcs34725-rgb-color-sensor-with-ir-filter-and-white-led.jpg/' width=200 height=200 />
+
 Este es el sensor de color TCS34725 el cual es probado con codigo Micropython y microcontrolador esp-8266.
+
 <img src='media/NodeMCU-Microncontroller.ppm/' width=300 height=200 />
 
 para poder hacer funcionar el esp-8266 con el TCS34725 tuve que hacer unos cambios en el firmware y usar el de Adafruit(&trade;)
@@ -33,3 +36,14 @@ ampy --port COM3 put adafruit_tcs34725.py
 ampy --port COM3 put i2c_device.py
 
 <img src='media/color-sensor.jpg/' width=300 height=200 />
+
+Elementos usados:
+
+1-Board Nodemcu esp-8266<br>
+2-Sensor de color TCS34725<br>
+3-Led RGB<br>
+4-(3) resistencias de 330 Ohmios<br>
+5-Bread board<br>
+6-Jumpers varios
+
+En mi caso la prueba se hizo con el voltaje suministrado por el USB y solo se uso 3.3v.
