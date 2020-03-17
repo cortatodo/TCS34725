@@ -6,5 +6,5 @@ Este es el sensor de color TCS34725 el cual es probado con codigo Micropython y 
 
 para poder hacer funcionar el esp-8266 con el TCS34725 tuve que hacer unos cambios en el firmware y usar el de Adafruit
 @
-&trade
-&#8482
+&trade;
+&#8482;
