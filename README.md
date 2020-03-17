@@ -32,6 +32,7 @@ Estos dos drivers son indispensables para poder hacer la prueba.
 Hay que pasarlos al esp-8266 con ampy de la siguiente manera:
 (En Windows Power Shell puerto COM3 (sustituir con puerto correspondiente))
 
+```
 ampy --port COM3 put adafruit_tcs34725.py
 
 ampy --port COM3 put i2c_device.py
@@ -39,7 +40,7 @@ ampy --port COM3 put i2c_device.py
 ampy --port COM3 put main.py
 
 ampy --port COM3 put tcs34725.py
-
+```
 <img src='media/color-sensor.jpg/' width=300 height=200 />
 
 Elementos usados:
