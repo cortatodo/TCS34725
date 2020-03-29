@@ -42,7 +42,7 @@ ampy --port COM3 put main.py
 ampy --port COM3 put tcs34725.py
 ```
 <img src='media/color-sensor.jpg/' width=300 height=200 />
-[![Watch the video](https://github.com/cortatodo/TCS34725/)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://github.com/cortatodo/TCS34725/blob/master/media/color-sensor.jpg)](https://youtu.be/vt5fpE0bzSY)
 Elementos usados:
 
 1-Board Nodemcu esp-8266<br>
