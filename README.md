@@ -45,6 +45,8 @@ ampy --port COM3 put tcs34725.py
 
 [<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://youtu.be/<VIDEO ID>)
 
+https://www.youtube.com/watch?v=jjKxhF63zXo
+
 Elementos usados:
 
 1-Board Nodemcu esp-8266<br>
