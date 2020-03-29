@@ -43,9 +43,9 @@ ampy --port COM3 put tcs34725.py
 ```
 <img src='media/color-sensor.jpg/' width=300 height=200 />
 
-[<img src="https://img.youtube.com/vi/jjKxhF63zXo/maxresdefault.jpg" width="50%">](https://youtu.be/jjKxhF63zXo)
+Ver video
 
-https://www.youtube.com/watch?v=jjKxhF63zXo
+[<img src="https://img.youtube.com/vi/jjKxhF63zXo/maxresdefault.jpg" width="30%">](https://youtu.be/jjKxhF63zXo)
 
 Elementos usados:
 
